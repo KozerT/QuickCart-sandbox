@@ -1,6 +1,6 @@
 import { useRef, useContext } from "react";
 import CartModal from "./CartModal.jsx";
-import CartContext from "../store/shopping-cart-context";
+import { CartContext } from "../store/shopping-cart-context";
 
 export default function Header() {
   const modal = useRef();
